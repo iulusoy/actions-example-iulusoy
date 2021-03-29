@@ -30,4 +30,3 @@ def euclidean_distance(list_ref, list_comp, vectors):
     for i in range(len(list_ref)):
         distances[i] = np.linalg.norm(vectors[list_comp[i]] - vectors[list_ref[i]])
     return distances
-

@@ -52,4 +52,3 @@ def test_euclidean_array(test_L2norm_input, test_L2norm_output):
 
 if __name__ == "__main__":  # checks if the running script (__name__) is the main script
     pytest.main([__file__])  # executing pytest in order to run the file
-
