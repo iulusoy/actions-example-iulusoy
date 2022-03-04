@@ -39,3 +39,7 @@ jobs:
       run: |
           cd src/package
           python -m unittest
+    - name: build sphinx doc
+      run: |
+          cd doc
+          make html
