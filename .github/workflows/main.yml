@@ -37,5 +37,5 @@ jobs:
       run: flake8
     - name: run unittest
       run: |
-          cd src
+          cd src/package
           python -m unittest
